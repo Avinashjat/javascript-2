@@ -1,5 +1,5 @@
-async function avi(){
 
+async function avi(){
     let kotaweather =new Promise ((resolve,reject)=>{
           setTimeout(()=>{
             resolve("45 deg")
