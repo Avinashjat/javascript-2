@@ -1,5 +1,5 @@
 
-async function avi(){
+async function avv(){
     let kotaweather =new Promise ((resolve,reject)=>{
           setTimeout(()=>{
             resolve("45 deg")
@@ -22,15 +22,15 @@ async function avi(){
 
     }
 
-    const chinki = async()=>{
+    const hel = async()=>{
    console.log("hey i am a function ")
     }
     
     const hello = async()=>{
         
     console.log("welcome to the weather control room")
-   let a = await avi()
-   let b = await chinki()
+   let a = await avv()
+   let b = await hel()
 //    a.then((value)=>{
 //     console.log(value)
 //    })
