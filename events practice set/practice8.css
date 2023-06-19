@@ -1,0 +1,13 @@
+
+.blub{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 500px;
+}
+
+.blub-container{
+    height: 300px;
+    width: 300px;
+    /* border-radius: 500px; */
+}
