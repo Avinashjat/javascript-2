@@ -115,73 +115,80 @@
 // console.log(arr)
 
 
-let n2 = [43,6,27,85,33,778,46,43,9,3,77,]
-let n3 = [5,8,23,95,24,867,68,3476,35,4,4]
+// let n2 = [43,6,27,85,33,778,46,43,9,3,77,]
+// let n3 = [5,8,23,95,24,867,68,3476,35,4,4]
 
-delete n1[4]
-console.log(n1)
+// delete n1[4]
+// console.log(n1)
 
-let k2 = n1.concat(n2,n3)
-console.log(k2)
+// let k2 = n1.concat(n2,n3)
+// console.log(k2)
 
-let compare =(a,b)=>{
-return b-a;
+// let compare =(a,b)=>{
+// return b-a;
+// }
+
+// console.log(n1.sort(compare))
+
+// n1.splice(2,5,1000,2000,3000,4000,5000)
+// console.log(n1)
+
+
+// let n6=n1.slice(2,5)
+// console.log(n6)
+
+
+
+// let n1 = [2,6,9,17,5,49,4,76,22]
+
+// for (let i = 0; i<n1.length; i++){
+//     console.log(n1[i])
+// }
+
+// n1.forEach((element)=>{
+// console.log(element*element)
+// })
+
+// let s1 = "aviansh"
+//  let p=Array.from(s1)
+
+//  console.log(p)
+
+
+//  for(let i of s1){
+//     console.log(i)
+//  }
+//  for(let i in s1){
+//     console.log(i)
+//  }
+
+// let arr1 =[ 11,3,44,55,32,54]
+
+// let a1 =arr1.map((element,index,array)=>{
+//     console.log(element,index,array)
+//     return element+ index;
+// })
+// console.log(a)
+
+// let arr2 = [33,64,75,3,76,85,4] 
+// let a2 = arr2.filter((a)=>{
+//    return a<10
+// })
+
+// console.log(a2)
+// let arr3 = [33,64,75,3,76,85,4]
+
+// let a3 = arr3.reduce((h1,h2)=>{
+//     return h1*h2;
+// })
+// console.log(a3)
+
+
+
+
+timemethod =()=>{
+    console.log("i  am the best  ")
 }
 
-console.log(n1.sort(compare))
-
-n1.splice(2,5,1000,2000,3000,4000,5000)
-console.log(n1)
-
-
-let n6=n1.slice(2,5)
-console.log(n6)
-
-
-
-let n1 = [2,6,9,17,5,49,4,76,22]
-
-for (let i = 0; i<n1.length; i++){
-    console.log(n1[i])
-}
-
-n1.forEach((element)=>{
-console.log(element*element)
-})
-
-let s1 = "aviansh"
- let p=Array.from(s1)
-
- console.log(p)
-
-
- for(let i of s1){
-    console.log(i)
- }
- for(let i in s1){
-    console.log(i)
- }
-
-let arr1 =[ 11,3,44,55,32,54]
-
-let a1 =arr1.map((element,index,array)=>{
-    console.log(element,index,array)
-    return element+ index;
-})
-console.log(a)
-
-let arr2 = [33,64,75,3,76,85,4] 
-let a2 = arr2.filter((a)=>{
-   return a<10
-})
-
-console.log(a2)
-let arr3 = [33,64,75,3,76,85,4]
-
-let a3 = arr3.reduce((h1,h2)=>{
-    return h1*h2;
-})
-console.log(a3)
-
-
+setTimeout(timemethod,3000)
 
